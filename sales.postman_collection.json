@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "a789eed0-5e2e-4abc-8dd4-fb3b390f02ca",
+		"name": "sales",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27373213",
+		"_collection_link": "https://lively-resonance-187555.postman.co/workspace/New-Team-Workspace~2fa469b5-5820-4881-91f8-82e4b19cbf01/collection/27373213-a789eed0-5e2e-4abc-8dd4-fb3b390f02ca?action=share&source=collection_link&creator=27373213"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product\": \"Product B\",\r\n    \"quantity\": 5,\r\n    \"price\": 15.0,\r\n    \"date\": \"2023-09-11T15:45:00Z\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "total revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales//total-revenue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"",
+						"total-revenue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "quantity by prduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales/quantity-by-product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"quantity-by-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "top product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales/top-products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"top-products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "average price",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales/average-price",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"average-price"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "revenue by month",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales/revenue-by-month",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"revenue-by-month"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "highest quantity sold",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales/highest-quantity-sold",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"highest-quantity-sold"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "department",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/sales/department-salary-expense",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"department-salary-expense"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
